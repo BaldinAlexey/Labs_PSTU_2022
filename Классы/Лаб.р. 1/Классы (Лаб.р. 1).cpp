@@ -11,6 +11,13 @@ class Time
 
 public:
 
+    void Pole(int first, int second)
+    {
+        this->first = first;
+        this->second = second;
+    }
+
+
     void minutes(int first, int second)
     {
         int h, m;
@@ -52,5 +59,7 @@ int main()
         cout << "Вы ввели недопустимые данные! ";
         cout << endl;
     }
+    time.Pole(hour, minute);
+
     return 0;
 }
