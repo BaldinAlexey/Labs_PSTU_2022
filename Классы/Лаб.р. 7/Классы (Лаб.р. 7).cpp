@@ -1,7 +1,6 @@
 ﻿#include<iostream>
-#include<ctime>
-using namespace std;
 
+using namespace std;
 
 template<class T>
 class Vector
@@ -161,7 +160,6 @@ istream& operator>>(istream& in, Time<T,T2>& t)
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	srand(time(0));
 	int size = 2;
 	int k;
 
